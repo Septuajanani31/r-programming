@@ -1,0 +1,10 @@
+employid=c(101,102,103,104)
+employid
+employname=c("septua","john","tessy","tincy")
+employname
+num_of_emp=4
+emplist=list(employid,employname,num_of_emp)
+emplist
+
+
+

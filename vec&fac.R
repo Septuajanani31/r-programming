@@ -1,0 +1,13 @@
+vector=c("M","F","F","F","M")
+f=factor(vector)
+f
+f1=factor(vector,levels=c("M","F","t"))
+f1
+f2=factor(vector,levels=c("M","F","t"),labels=c("Male","Female","Transgender"))
+f2
+f3=factor(vector,levels=c("M","F","t"),labels=c("Male","Female","Transgender"),ordered=TRUE)
+f3
+is.factor(f3)
+f3[3]
+f3[2]="Transgender"
+f3[2]

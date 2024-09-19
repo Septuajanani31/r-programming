@@ -1,0 +1,16 @@
+a=7L
+class(a)class(a)
+typeof(a)
+is.integer(x)
+
+typeof(a)
+a=as.integer(a)
+class(a)
+typeof(a)
+
+a=7
+class(a)
+typeof(a)
+a=as.integer(a)
+
+
